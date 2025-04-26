@@ -1,0 +1,307 @@
+ul {
+  list-style-type: none;
+  padding-left: 0; 
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+body {
+  font-family: "Source Serif Pro", "Arial", sans-serif;
+  background-color: #F6F0E6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: #E5D8C4;
+}
+.header .logo img {
+  height: 50px;
+}
+.header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.nav-links {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Відступи між елементами */
+}
+
+.nav-links ul {
+  display: flex;
+  list-style: none;
+  padding: 0px 0px 0px 96px;
+  gap: 40px;
+}
+
+.nav-links a {
+  font-family: system-ui;;
+  text-decoration: none;
+  color: #5d3417;
+  font-size: 21px;
+  font-weight: 500;
+}
+
+.navbar img {
+  height: 66px;
+}
+.right-block {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.phone {
+  font-family: "Grenze";
+  font-size: 14px;
+}
+
+.btn {
+  background-color:#A68974;
+  color: white;
+  border: 2px solid;
+  border-color: black;
+  padding: 7px 17px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.right-block a{
+  color: black;
+  font-weight: bold;
+  font-size: 9px;
+}
+
+.right-block .insta_logo{
+  height: 30px;
+}
+
+.header .contact {
+  font-weight: bold;
+}
+
+.hero {
+  position: relative;
+}
+
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+.hero .hero-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.hero-content .title_name{
+  font-size: 125px;
+  font-weight: 600;
+  text-shadow: 8px 6px 15px #000;
+  padding-bottom: 30px;
+
+}
+
+.booking_btn{
+  border-style: none;
+  border-top: 4px solid white;
+  padding-top: 42px;
+}
+
+.title_desc{
+  font-size: 33px;
+  font-family: "Shantell Sans";
+  padding: 0px 0px 38px 0px;
+
+}
+
+.btn.btn-outline-light.rounded-pill{
+  font-size: 25px;
+  padding: 9px 41px;
+}
+
+.img-fluid {
+  height: 242px;
+}
+
+.about{
+  padding: 69px 81px;
+}
+/* fonts */
+.montserrat-alternates-regular {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color:rgb(169, 144, 125);
+  padding-bottom: 42px;
+  padding-top: 20px;
+}
+.poiret {
+  font-family: 'Poiret One';
+  font-size: 23px;
+  padding-right: 65px;
+}
+.LaoSansPro {
+  font-family: 'Jost', sans-serif;
+  font-size: 40px ;
+  color: rgba(144, 107, 73, 1);
+  padding: 38px 20px;
+}
+.anek-bangla {
+  font-family: 'Anek Bangla', sans-serif;
+  font-size: 20px;
+  font-weight: medium;
+  color: rgba(166, 137, 116, 1);
+}
+
+.exo-2 {
+  font-family: "Exo 2", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+}
+/*  */
+
+
+/* nav tabs */
+.tab-content img {
+  object-fit: cover;
+  height: 100%;
+}
+
+.nav-item .nav-link {
+  color: #a1876c; /* звичайний колір */
+  transition: color 0.3s ease;
+}
+
+.nav-item .nav-link:hover {
+  color: black; /* при наведенні */
+}
+
+.nav-link.active {
+  color: black; /* колір, коли активна вкладка */
+  font-weight:450;
+}
+/*  */
+
+.invite{
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  padding-top: 10px;
+}
+
+
+/* room-info */
+.room-info {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding:  40px 40px;
+  background-color: #f7f2e9;
+}
+
+.video-box {
+  flex: 1;
+  max-width: 500px;
+}
+
+.video-placeholder {
+  background-color: #dcdcdc;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  font-family: 'Georgia', serif;
+}
+
+.features-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 40px;
+  max-width: 500px;
+  padding: 34px 30px;
+  padding-left: 68px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+}
+
+.material-symbols-outlined {
+  font-size: 24px;
+  color: #444;
+}
+
+#btn-standart{
+  font-size: 13px;
+  border-style: none;
+  border: 1px solid black;
+ color: #000;
+
+}
+
+.info-book{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #f7f2e9;
+}
+
+.divider-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    padding: 0px 86px;
+}
+.divider{
+    width: 225px;
+    background-color: #000;
+    height: 2px;
+}
+  
+#btn-standart:hover{
+  background-color: rgb(158 120 92 / 81%);
+}
+
+.carousel2{
+  padding-top: 115px;
+  background-color: #F6F0E6;
+}
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+  
+}

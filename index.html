@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YAREMA HOUSE</title>
+    <link rel="stylesheet" href="/Users/sofiayarema/Sites/diploma/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+  </head>
+  <body>
+    <!-- header -->
+    <header class="navbar">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <div class="logo">
+          <img src="/Users/sofiayarema/Sites/diploma/pictures/logo.svg" alt="Логотип" />
+        </div>
+      
+        <nav class="nav-links">
+          <ul>
+            <li><a href="#">Головна</a></li>
+            <li><a href="#">Контакти</a></li>
+            <li><a href="#">Roomtour</a></li>
+          </ul>
+        </nav>
+      
+        <div class="right-block"  >
+          <span class="phone">+3098-56-65</span>
+          <a href="#booking" class="btn">ЗАБРОНЮВАТИ</a>
+          <a href=""><img class="insta_logo" src="/Users/sofiayarema/Sites/diploma/pictures/instagram-logo-svgrepo-com.svg" alt="insta_logo"></a>
+        </div>
+      </header>
+    <!-- block 1 (starter block + book_btn) -->
+    <section class="hero">
+      <img src="/Users/sofiayarema/Sites/diploma/pictures/starting_photo.png" alt="Yarema House" />
+      <div class="hero-content">
+        <div class="title_name">YAREMA HOUSE</div>
+        <div class="title_desc">Місце для вашого ідеального відпочинку</div>
+  
+        <div class="booking_btn"> <button type="button" class="btn btn-outline-light rounded-pill">ЗАБРОНЮВАТИ</button></div>
+     
+    </section>
+    <!-- block 2 (description + carousel) -->
+    <section class="about">
+      <div class="about-container" style="max-width: 100%;">
+        <div class="row g-0">
+          <div class="description col-md-6">
+            <div class="about-text">
+              <div class="montserrat-alternates-regular" >Твоє Місце Затишку</div>
+              <div class="poiret">Затишне місце серед природи для вашого ідеального відпочинку. Насолоджуйтеся тишею, чистим повітрям і казковими краєвидами. Ідеально підходить для вихідних, сімейного відпочинку або втечі від міської метушні.</div>
+            </div>
+          </div>
+          
+          <div class="col-md-6 d-flex align-items-center justify-content-center">
+            <div id="carouselExampleIndicators" class="carousel slide w-100">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="/Users/sofiayarema/Sites/diploma/pictures/bedroom.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="/Users/sofiayarema/Sites/diploma/pictures/bedroom.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="/Users/sofiayarema/Sites/diploma/pictures/bedroom.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="rooms text-center">
+      <h2 class="LaoSansPro">Наші кімнати для відпочинку</h2>
+    
+      <!-- Навігація -->
+      <ul class="nav nav-tabs justify-content-center mb-4" id="roomsTab" role="tablist">
+        <li class="nav-item anek-bangla" role="presentation">
+          <button class="nav-link active " id="bedroom-tab" data-bs-toggle="tab" data-bs-target="#bedroom" type="button" role="tab">спальні</button>
+        </li>
+        <li class="nav-item anek-bangla" role="presentation">
+          <button class="nav-link" id="bathroom-tab" data-bs-toggle="tab" data-bs-target="#bathroom" type="button" role="tab">ванна кімната</button>
+        </li>
+        <li class="nav-item anek-bangla" role="presentation">
+          <button class="nav-link" id="kitchen-tab" data-bs-toggle="tab" data-bs-target="#kitchen" type="button" role="tab">кухня</button>
+        </li>
+      </ul>
+    
+      <!-- Контент -->
+      <div class="tab-content container w-75" id="roomsTabContent">
+    
+        <!-- Спальні -->
+        <div class="tab-pane fade show active" id="bedroom" role="tabpanel" aria-labelledby="bedroom-tab">
+          <div class="row g-3">
+            <div class="col-md-8">
+              <img src="/Users/sofiayarema/Sites/diploma/pictures/bedroom.png" class="img-fluid rounded w-100" alt="велика спальня">
+            </div>
+            <div class="col-md-4 d-flex flex-column justify-content-between">
+              <img src="/Users/sofiayarema/Sites/diploma/pictures/bedroom.png" class="img-fluid rounded mb-3" alt="мала спальня 1">
+              <img src="/Users/sofiayarema/Sites/diploma/pictures/bedroom.png" class="img-fluid rounded" alt="мала спальня 2">
+            </div>
+          </div>
+        </div>
+    
+        <!-- Ванна -->
+        <div class="tab-pane fade" id="bathroom" role="tabpanel" aria-labelledby="bathroom-tab">
+          <div class="row g-3">
+            <div class="col-md-8">
+              <img src="/Users/sofiayarema/Sites/diploma/pictures/bedroom.png" class="img-fluid rounded w-100" alt="велика ванна">
+            </div>
+            <div class="col-md-4 d-flex flex-column justify-content-between">
+              <img src="/Users/sofiayarema/Sites/diploma/pictures/bedroom.png" class="img-fluid rounded mb-3" alt="мала ванна 1">
+              <img src="/Users/sofiayarema/Sites/diploma/pictures/bedroom.png" class="img-fluid rounded" alt="мала ванна 2">
+            </div>
+          </div>
+        </div>
+    
+        <!-- Кухня -->
+        <div class="tab-pane fade" id="kitchen" role="tabpanel" aria-labelledby="kitchen-tab">
+          <div class="row g-3">
+            <div class="col-md-8">
+              <img src="/Users/sofiayarema/Sites/diploma/pictures/bedroom.png" class="img-fluid rounded w-100" alt="велика кухня">
+            </div>
+            <div class="col-md-4 d-flex flex-column justify-content-between">
+              <img src="/Users/sofiayarema/Sites/diploma/pictures/bedroom.png" class="img-fluid rounded mb-3" alt="мала кухня 1">
+              <img src="/Users/sofiayarema/Sites/diploma/pictures/bedroom.png" class="img-fluid rounded" alt="мала кухня 2">
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </section>
+    
+    <div class="invite anek-bangla" id="invite">*затишні кімнати чекають на Вас!</div>
+
+
+    <section class="room-info">
+      <div class="video-box">
+        <div class="video-placeholder">відео</div>
+      </div>
+      <div class="features-list">
+        <div class="feature">
+          <span class="material-symbols-outlined">bed</span>
+          <span>Двоспальні ліжка</span>
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">fork_spoon</span>
+          <span>Кухня та посуд</span>
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">clean_hands</span>
+          <span>Засоби гігієни</span>
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">shower</span>
+          <span>Ванна кімната (підігрів підлоги)</span>
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">directions_car</span>
+          <span>Парковка</span>
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">nature_people</span>
+          <span>Тераса</span>
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">outdoor_grill</span>
+          <span>Мангал та дрова</span>
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">wifi</span>
+          <span>Wi-Fi</span>
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">tv</span>
+          <span>Телевізор</span>
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">oven_gen</span>
+          <span>Духовка</span>
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">pool</span>
+          <span>Басейн</span>
+        </div>
+        <div class="feature">
+          <span class="material-symbols-outlined">hot_tub</span>
+          <span>Чан</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="info-book">
+      <div class="exo-2">
+        <div>Нд-Чт: 4000₴/ніч </div>
+        <div> Пт-Сб: 5000₴/ніч</div>
+      </div>
+      <section class="divider-sec"><hr class="divider"></hr></section>
+      <div><a  id="btn-standart" href="#booking" class="btn btn-outline-light rounded-pill">ЗАБРОНЮВАТИ</a>
+      </div>
+    </section>
+
+    <section class="carousel2">
+      <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators2" class="carousel slide" style="max-width: 700px; width: 100%;">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/Users/sofiayarema/Sites/diploma/pictures/karusel.png" class="d-block w-100" alt="...">
+            </div>
+          <div class="carousel-item">
+            <img src="/Users/sofiayarema/Sites/diploma/pictures/karusel.png" class="d-block w-100" alt="...">
+          </div>
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+      </div>
+    </section>
+    
+    
+    
+    <footer class="footer">
+     
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
